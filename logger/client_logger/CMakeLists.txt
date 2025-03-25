@@ -1,7 +1,8 @@
 add_library(
         mp_os_lggr_clnt_lggr
         src/client_logger.cpp
-        src/client_logger_builder.cpp)
+        src/client_logger_builder.cpp
+        tests/client_logger_tests.cpp)
 
 target_include_directories(
         mp_os_lggr_clnt_lggr
