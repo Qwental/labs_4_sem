@@ -5,7 +5,8 @@ add_executable(
 target_link_libraries(
         mp_os_lggr_srvr_lggr_tests
         PRIVATE
-        gtest_main
+        GTest::gtest
+
         Crow::Crow
 )
 target_link_libraries(
@@ -24,6 +25,7 @@ target_link_libraries(
         PRIVATE
         gtest_main
         Crow::Crow
+
 )
 target_link_libraries(
         serv_test
